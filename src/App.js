@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import IndexPage from "./conponents/IndexPage"
 
 function App() {
   return (
