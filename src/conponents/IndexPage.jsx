@@ -13,8 +13,8 @@ const IndexPage = () => {
             <Home />
             <About />
             <Works />
-            <Contact />
             <Vlog />
+            <Contact />
             <Footer />
         </div>
     )

@@ -1,0 +1,9 @@
+.worksItem_area{
+    display:flex;
+    justify-content: space-between;
+    .works_item{
+        p{
+            width:300px;
+        }
+    }
+}

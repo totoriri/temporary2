@@ -1,0 +1,9 @@
+.vlog_container{
+    .vlog_item{
+        display:flex;
+        justify-content: space-around;
+        p{
+            width:300px;
+        }
+    }
+}
