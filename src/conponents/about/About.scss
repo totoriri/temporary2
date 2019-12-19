@@ -1,9 +1,24 @@
+@import "../../css/variables.scss";
+
 .about_container{
+    margin:100px 0 100px 0;
+    h1{
+        font-family: $font-primary;
+    }
     .my_area{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+       .my_description{
+        padding:150px 0 50px 0;
+        h1{
+            font-family:$font-primary;
+            font-weight:200;
+            padding-bottom:3px;
+        }
         p{
-            width:300px;
+            width:500px;
+            padding-bottom:30px;
         }
     }
+}
 }

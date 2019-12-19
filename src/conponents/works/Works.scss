@@ -1,9 +1,23 @@
-.worksItem_area{
+@import "../../css/variables.scss";
+
+.Works_container{
+    // margin:100px 0 100px 0;
+    padding-bottom:60px;
+    background-color: aliceblue;
+    h1{
+        font-family: $font-primary;
+        padding:30px;
+    }
+   .worksItem_area{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     .works_item{
+        img{
+            width:300px;
+        }
         p{
             width:300px;
         }
     }
+ }
 }

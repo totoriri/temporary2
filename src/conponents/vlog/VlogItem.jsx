@@ -1,6 +1,6 @@
 import React from "react"
 
-const WorksItem = ({img}) => {
+const VlogItem = ({img}) => {
     return (
         <div className="works_item">
                 <img src={img} alt="works_img" />
@@ -8,4 +8,4 @@ const WorksItem = ({img}) => {
             </div>
     )
 }
-export default WorksItem;
+export default VlogItem;
