@@ -1,7 +1,19 @@
+@import "../../css/variables.scss";
+
 .vlog_container{
+    // margin:100px 0 100px 0;
+    padding:30px;
+    background: aliceblue;
+    h1{
+        font-family: $font-primary;
+        padding:30px;
+    }
     .vlog_item{
         display:flex;
-        justify-content: space-around;
+        justify-content:space-around;
+        img{
+            width:300px;
+        }
         p{
             width:300px;
         }

@@ -1,6 +1,7 @@
 import React from 'react';
 import IndexPage from "./conponents/IndexPage"
 import Navigation from "./conponents/navigation/Navigation"
+import "./App.scss"
 
 function App() {
   return (
