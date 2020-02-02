@@ -1,7 +1,6 @@
 .footer_container{
-    margin-top:50px;
     height:120px;
-    background: orange;
+    background: linear-gradient(25deg, #F13F79, #FFC778);
     position:relative;
     img{
         width:100%;
@@ -12,9 +11,12 @@
     }
     p{
         position:absolute;
-        top:40px;
+        top:70px;
+
         // なんで中央にならないんだろう？？ちょっと右にずれる。なぜ？
         // transform:translate(-50%)は全く見当違いだった。
-        left: 50%;
+        left: 92%;
+        color:white;
     }
+    
 }

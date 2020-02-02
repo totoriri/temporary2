@@ -1,11 +1,15 @@
 import React from "react"
 
-const WorksItem = ({img}) => {
+const WorksItem = ({url,img,title,description,language}) => {
     return (
         <div className="works_item">
-                <img src={img} alt="works_img" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloremque soluta numquam itaque rem laboriosam necessitatibus quis possimus amet totam autem quod voluptates dolorem illum, similique alias eligendi excepturi sequi.</p>
+            <div className="works-descrition">
+            <a href={url}><img src={img} alt="works_img" /></a>
             </div>
+            <h1>{title}</h1>
+                <p>{description}<span>{language}</span></p>
+        </div>
     )
 }
 export default WorksItem;
+

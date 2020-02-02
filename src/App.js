@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Media from "react-media";
 import IndexPage from "./conponents/IndexPage"
 import Navigation from "./conponents/navigation/Navigation"
 import "./App.scss"
@@ -6,11 +8,37 @@ import "./App.scss"
 function App() {
   return (
     <div className="App">
-      {/* ここにラウター書いて、headerとindexpage.jsで */}
-      <Navigation />
-      <IndexPage />
+      <BrowserRouter>
+        <Media
+          queries={{
+            mobile: "(max-width: 750px)",
+            webbrowser: "(min-width: 751px)"
+          }}
+        >
+          {matches => (
+            <>
+              {matches.mobile && (
+                <p>mobile navigation</p>
+              )}
+              {matches.webbrowser && (
+                <Navigation />
+              )}
+            </>
+          )}
+        </Media>
+
+        <Switch>
+          <Route path="/" render={(props) => <IndexPage/>}/>
+          <Route path="*">
+            <div className="App">
+              <h1>Error 404: Page not found</h1>
+            </div>
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
-}
+};
+    
 
 export default App;
