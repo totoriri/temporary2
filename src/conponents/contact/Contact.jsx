@@ -10,12 +10,12 @@ const Contact = () => {
     return (
         <div className="contact_container">
             <h1>*CONTACT ME*</h1>
-            <p>Feel free to contact me if you are interested in me!</p>
-            <a className="email-button"href="mailto:tktk11217@gmail.com" class="email-button">Send!</a>
+            <p>Thank you for visiting my website!!Feel free to contact me via email or linked in.</p>
+            <a className="email-button"href="mailto:tktk11217@gmail.com" class="email-button">Send a message!</a>
             <div className="social_icons">
-                <SocialIcons icon_img={Social_icon1}/>
-                <SocialIcons icon_img={Social_icon2}/>
-                <SocialIcons icon_img={Social_icon3} />
+                <SocialIcons url="https://github.com/totoriri" icon_img={Social_icon1} />
+                <SocialIcons url="https://www.linkedin.com/in/risa-takata-557b52185/" icon_img={Social_icon2}/>
+                <SocialIcons url="https://www.instagram.com/risa_travel.jp/" icon_img={Social_icon3} />
             </div>
         </div>
     )

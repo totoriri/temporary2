@@ -4,9 +4,14 @@
     margin-bottom:100px;
     font-family:$font_primary;
     color:rgb(255, 255, 255);
-    background: orange;
-    height:680px;
+    background: linear-gradient(25deg, #F13F79, #FFC778);
+    // background: linear-gradient(25deg, rgb(255, 65, 129), rgb(252, 194, 113));
+    height:670px;
     position:relative;
+    .banner{
+    display:flex;
+    justify-content:space-around;
+    }
     .title{
         position:absolute;
         top:30%;
@@ -21,12 +26,7 @@
             font-weight:100;
             text-align: left;
         }
-    }   
-    .banner{
-    display:flex;
-    justify-content:space-around;
-    }
-
+    } 
     .arrow{
         position: absolute;
         top: 55%;
@@ -38,7 +38,8 @@
             width: 40px;
             height: 40px;
             border-bottom: 8px solid antiquewhite;
-            border-right: 8px solid rgb(212, 110, 144);
+            // border-right: 8px solid rgb(212, 110, 144);
+            border-right: 8px solid #F13F79;
             transform: rotate(45deg);
             margin: -10px;
             animation: animate 3s infinite;
@@ -71,6 +72,10 @@
         width:100%;
         top:80%;
         transform:translateX(-50%);
-    }
+        }
 }
+
+
+
+
 

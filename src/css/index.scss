@@ -1,16 +1,17 @@
+@import "../css/variables.scss";
+
 * {
     margin: 0;
+    // なんでここでpading:0ってやってんのに、各component padding 生じちゃってるんだろう？？
     padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
     text-align:center;
   }
   
   body {
     margin: 0;
-    font-size: 16px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    font-weight:100;
+    font-family:$font-secondary;
   }
   
   code {

@@ -1,9 +1,9 @@
 import React from "react"
 
-const SocialIcons = ({icon_img}) => {
+const SocialIcons = ({url,icon_img}) => {
     return (
         <div className="social_icon_item">
-            <img src={icon_img} alt="social_icons" />
+            <a href={url}><img src={icon_img} alt="social_icons" /></a>
         </div>
     )
 }

@@ -1,0 +1,35 @@
+@import "../../css/variables.scss";
+
+.navigation_container{
+   position: absolute;
+    height: 70px;
+    width: 100%;
+    z-index:10;
+    // position:fixed;
+    // background:linear-gradient(25deg, #F13F79, #FFC778);
+    ul{
+        display: flex;
+         justify-content: flex-end;
+         margin-right:130px;
+        li{
+            list-style:none;
+            font-size:25px;
+            margin:20px;
+            font-family:$font_primary;
+            a{
+                color:white;
+                text-decoration:none;
+                &visited{
+                    color:white;
+                }
+            }
+        }
+    }
+
+    .nav_underbar{
+        width:80%;
+        border-bottom:1px solid white;
+        margin:0 auto;
+    }
+}
+
