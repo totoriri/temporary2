@@ -11,6 +11,7 @@ const Navigation = () => {
                 <li><a href="#">works</a></li>
                 <li><a href="#">contact</a></li>
             </ul>
+            {/* <div className="nav_underbar"></div> */}
         </div>
     )
 }

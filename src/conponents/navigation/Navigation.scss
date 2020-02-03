@@ -10,6 +10,7 @@
     ul{
         display: flex;
          justify-content: flex-end;
+         margin-right:130px;
         li{
             list-style:none;
             font-size:25px;
@@ -23,6 +24,12 @@
                 }
             }
         }
+    }
+
+    .nav_underbar{
+        width:80%;
+        border-bottom:1px solid white;
+        margin:0 auto;
     }
 }
 
