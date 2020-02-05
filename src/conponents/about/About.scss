@@ -21,23 +21,24 @@
             font-family:$font-secondary;
             font-weight:500;
             padding-bottom:3px;
-            // text-align:left;
-            span{
-                background:linear-gradient(transparent 60%, #f688ad 60%);
-            }
+            text-align:left;
+            // span{
+            //     background:linear-gradient(transparent 60%, #f688ad 60%);
+            // }
         }
         p{
-            // text-align:left;
+            text-align:left;
             width:500px;
             padding-bottom:30px;
         }
         .skill_icon_area{
             display:flex;
             flex-wrap:wrap;
-            justify-content: center;
+            // justify-content: center;
+            justify-content:flex-start;
             height:100px;
             width:400px;
-            margin:  0 auto;  
+            // margin:  0 auto;  
             .skill_icon_item{
              width:90px;
              img{
