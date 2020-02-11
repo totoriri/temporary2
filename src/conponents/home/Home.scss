@@ -74,6 +74,22 @@
         top:80%;
         transform:translateX(-50%);
         }
+        
+        // スマホ
+        @media screen and (min-width:300px) and (max-width:599px) { 
+　　　　　　  .home_container{
+            .banner{
+             display:block;
+             flex-direction:column;
+             .arrow{
+                 display:none;
+             }
+}}
+        }
+        // タブレット
+        @media screen and (min-width:600px) and (max-width:959px) {
+            
+        }
 }
 
 
