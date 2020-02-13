@@ -14,7 +14,7 @@ import GIT from "../../img/git.png"
 const About = () => {
     return (
         <div>
-            <div className="about_container">
+            <div id="about_container">
                 <h1>*ABOUT ME*</h1>
                 <div className="my_area">
                 <img src={risa_photo2} alt="my_picture" />

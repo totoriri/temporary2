@@ -76,23 +76,14 @@
         }
         
         // スマホ
-        @media screen and (min-width:300px) and (max-width:599px) { 
-　　　　　　  .home_container{
-            .banner{
-             display:block;
-             flex-direction:column;
-             .arrow{
-                 display:none;
-             }
-}}
-        }
+        // @media screen and (min-width:300px) and (max-width:599px) { 　　
+        // }
+        
         // タブレット
-        @media screen and (min-width:600px) and (max-width:959px) {
+        // @media screen and (min-width:600px) and (max-width:959px) {
             
-        }
+        // }
 }
-
-
 
 
 
