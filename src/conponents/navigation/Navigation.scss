@@ -1,35 +1,186 @@
-@import "../../css/variables.scss";
+// @import "../../css/variables.scss";
+
+// .navigation_container{
+//    position: absolute;
+//     height: 70px;
+//     width: 100%;
+//     z-index:10;
+//     ul{
+//         display: flex;
+//          justify-content: flex-end;
+//          margin-right:130px;
+//         li{
+//             list-style:none;
+//             font-size:25px;
+//             margin:20px;
+//             font-family:$font_primary;
+//             a{
+//                 color:white;
+//                 text-decoration:none;
+//                 &visited{
+//                     color:white;
+//                 }
+//             }
+//         }
+//     }
+
+//     .nav_underbar{
+//         width:80%;
+//         border-bottom:1px solid white;
+//         margin:0 auto;
+//     }
+// }
+
+// @import "../../css/variables.scss";
 
 .navigation_container{
-   position: absolute;
-    height: 70px;
+    position: absolute;
+    height: 80px;
     width: 100%;
     z-index:10;
-    // position:fixed;
-    // background:linear-gradient(25deg, #F13F79, #FFC778);
-    ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .navigation_wrapper{
+        margin: 0 auto;
+        width: 90%;
         display: flex;
-         justify-content: flex-end;
-         margin-right:130px;
-        li{
-            list-style:none;
-            font-size:25px;
-            margin:20px;
-            font-family:$font_primary;
-            a{
-                color:white;
-                text-decoration:none;
-                &visited{
-                    color:white;
+        justify-content: space-between;
+        align-items: flex-end;
+        // border-bottom: 1px solid #FDFDFF;
+
+        .navigation_items {
+            white-space: nowrap;
+
+            & div{
+                display: inline-block;
+                margin: 10px;
+
+                & a{
+                    color: white;
+                    font-style: normal;
+                    font-weight: 900;
+                    text-decoration: none;
+                    position: relative;
+
+                    &.active{
+                        border-bottom: 2px solid white;
+                    }
+
+                    &:after {
+                        position: absolute;
+                        transition: all .5s;
+                        bottom: -2px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        width: 0%;
+                        content: '.';
+                        color: transparent;
+                        background: white;
+                        height: 2px;
+                    }
+                    &:hover:after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .navigation_logo_main{
+            .brand_logo{
+                transition: all .5s;
+                height: 105px;
+                margin-bottom: -15px;
+
+                @media only screen and (max-width: 1024px) {
+                    height: 65px;
+                    margin-bottom: -5px;
+                }
+            }
+        }
+    }
+}
+
+
+.navigation_on_scroll_wrapper{
+    transition: all 0.4s ease;
+    // box-shadow: 0px 10px 15px linear-gradient(25deg, #F13F79, #FFC778);
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &.hidden {
+        transform: translate(0, -100%);
+    }
+
+    .navigation_items {
+        white-space: nowrap;
+        margin-right: 20px;
+
+        & div{
+            display: inline-block;
+            margin: 10px;
+            
+
+            & a{
+                color: white;
+                font-style: normal;
+                font-weight: 900;
+                text-decoration: none;
+                position: relative;
+
+                &.active{
+                    border-bottom: 2px solid white;
+                }
+
+                &:after {
+                    position: absolute;
+                    transition: all .5s;
+                    bottom: -2px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 0%;
+                    content: '.';
+                    color: transparent;
+                    background: white;
+                    height: 2px;
+                }
+                &:hover:after {
+                    width: 100%;
                 }
             }
         }
     }
 
-    .nav_underbar{
-        width:80%;
-        border-bottom:1px solid white;
-        margin:0 auto;
+    .brand_logo{
+        height: 50px;
+    }
+}
+
+.navigation_container_mobile{
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    z-index:10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+
+
+    .brand_logo{
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(5px 5px 5px #222);
     }
 }
 
