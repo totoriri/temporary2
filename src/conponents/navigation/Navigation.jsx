@@ -44,9 +44,9 @@ const Navigation = ({cSection}) => {
 
     let position = useWindowScrollPosition();
 
-    if (position.y > changePosition && !scrolling) {
-        setScrolling(true);
-    }
+    // if (position.y > changePosition && !scrolling) {
+    //     setScrolling(true);
+    // }
 
     if (position.y <= changePosition && scrolling) {
         setScrolling(false);
@@ -92,7 +92,7 @@ const Navigation = ({cSection}) => {
                 <div className="navigation_wrapper">
                     <div className="navigation_logo_main">
                         <a href="/">
-                            <img className="brand_logo"  alt="Brickhouse_Logo" />
+                            <img className="brand_logo"  alt="TOP_Logo" />
                         </a>
                     </div>
                     <div className="navigation_items">

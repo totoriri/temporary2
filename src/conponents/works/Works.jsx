@@ -9,10 +9,12 @@ import React_img from "../../img/react_white.jpg"
 
 const Works = () => {
     return (
-        <div className="Works_container">
+        <div id="works_container">
             <h1>*WORKS*</h1>
             <div className="worksItem_area">
             <WorksItem url="https://totoriri.github.io/whack-a-mole/" img={Whack_a_mole} title="whack a mole" description="A game of hitting moles which come out from holes at random." language="HTML/CSS/JavaScript"/>
+            <WorksItem url="https://vigorous-visvesvaraya-70500e.netlify.com/" img={Brickhouse} title="Team project" description="A school project to create a client website ." language="React/Sass"/>
+            <WorksItem url="https://vigorous-visvesvaraya-70500e.netlify.com/" img={Brickhouse} title="Team project" description="A school project to create a client website ." language="React/Sass"/>
             <WorksItem url="https://vigorous-visvesvaraya-70500e.netlify.com/" img={Brickhouse} title="Team project" description="A school project to create a client website ." language="React/Sass"/>
             <div className="works_item">
                 <img src={React_img} alt="works_img" />

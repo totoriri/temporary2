@@ -1,6 +1,7 @@
 import React from "react"
 import "./Home.scss"
 import Wave_home from "../../img/wave_home.png"
+import  navItems from "../navigation/NavItems.jsx"
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
                     <p>I'm front end developer<br/>based in vancouver</p>
                 </div>
                 <div className="arrow">
-                    <a href="#about-me">
+                    <a href={navItems[0].url}>
                         <span></span>
                         <span></span>
                         <span></span>

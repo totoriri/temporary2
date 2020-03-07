@@ -13,7 +13,6 @@ import GIT from "../../img/git.png"
 
 const About = () => {
     return (
-        <div>
             <div id="about_container">
                 <h1>*ABOUT ME*</h1>
                 <div className="my_area">
@@ -37,8 +36,6 @@ const About = () => {
                     {/* <p>React,JavaScript,SASS(SCSS),HTML5, CSS3,JQuery, React, Bootstrap, Responsive Design</p> */}
                     </div>
                 </div>
-                
-            </div>
         </div>
     )
 }

@@ -3,19 +3,19 @@ const navItems = [
         id: "101",
         title: "ABOUT",
         isActive: false,
-        url: "#about"
+        url: "#about_container"
     },
     {
         id: "102",
-        title: "PARTNERS",
+        title: "WORKS",
         isActive: false,
-        url: "#partners"
+        url: "#works_container"
     },
     {
         id: "103",
-        title: "ADVISORS",
+        title: "CONTACT",
         isActive: false,
-        url: "#advisors"
+        url: "#contact_container"
     },
 ];
 
