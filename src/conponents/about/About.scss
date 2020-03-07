@@ -18,7 +18,7 @@
        .my_description{
         padding:150px 0 50px 0;
         h1{
-            font-family:$font-secondary;
+            font-family:$font_secondary;
             font-weight:500;
             padding-bottom:3px;
             text-align:left;
@@ -30,6 +30,7 @@
             text-align:left;
             width:500px;
             padding-bottom:30px;
+            font-family:$font_secondary;
         }
         .skill_icon_area{
             display:flex;

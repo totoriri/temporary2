@@ -1,6 +1,6 @@
 @import "../../css/variables.scss";
 
-.Works_container{
+#works_container{
 
     // margin:100px 0 100px 0;
     padding-bottom:80px;
@@ -13,8 +13,12 @@
    .worksItem_area{
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    width:85%;
+    margin:0 auto;
     .works_item{
         width: 350px;
+        padding-top:50px;
                 img{
                 max-width:350px;
                 height:auto;

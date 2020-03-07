@@ -64,9 +64,9 @@
                     text-decoration: none;
                     position: relative;
 
-                    &.active{
-                        border-bottom: 2px solid white;
-                    }
+                    // &.active{
+                    //     border-bottom: 2px solid white;
+                    // }
 
                     &:after {
                         position: absolute;
@@ -105,7 +105,7 @@
 
 
 .navigation_on_scroll_wrapper{
-    transition: all 0.4s ease;
+    transition: all 0.7s ease;
     // box-shadow: 0px 10px 15px linear-gradient(25deg, #F13F79, #FFC778);
     height: 60px;
     width: 100vw;
@@ -138,9 +138,9 @@
                 text-decoration: none;
                 position: relative;
 
-                &.active{
-                    border-bottom: 2px solid white;
-                }
+                // &.active{
+                //     border-bottom: 2px solid white;
+                // }
 
                 &:after {
                     position: absolute;
