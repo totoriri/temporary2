@@ -6,39 +6,41 @@
     h1{
         font-family: $font-primary;
     }
+    .section_title{
+        font-size:50px;
+    }
     span{
         font-weight:600;
     }
-    .my_area{
-    display:flex;
-    justify-content: center;
     img{
-       padding-top:60px;
+       
     }
-       .my_description{
-        padding:150px 0 50px 0;
-        h1{
-            font-family:$font_secondary;
-            font-weight:500;
-            padding-bottom:3px;
-            text-align:left;
-            // span{
-            //     background:linear-gradient(transparent 60%, #f688ad 60%);
-            // }
+    .top_part{
+        display:flex;
+        justify-content: center;
+        img{
+            // padding-top:50px;
+            max-width:600px;
+            height:600px;
         }
-        p{
-            text-align:left;
-            width:500px;
-            padding-bottom:30px;
-            font-family:$font_secondary;
+        .my_story{
+            width:600px;
+            padding-top:50px;
+            margin-bottom:30px;
         }
+        .my_education{
+            width:600px;
+            p{
+                padding-bottom:20px;
+            }
+        }
+    }
         .skill_icon_area{
             display:flex;
-            flex-wrap:wrap;
-            // justify-content: center;
-            justify-content:flex-start;
+            // flex-wrap:wrap;
+            justify-content: center;
             height:100px;
-            width:400px;
+            // width:600px;
             // margin:  0 auto;  
             .skill_icon_item{
              width:90px;
@@ -52,10 +54,4 @@
                  text-align:center;
                  font-size:16px;
              }
-            }
-        }
-    }
-    }
-}
-
-
+            }}}
