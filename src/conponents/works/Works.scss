@@ -10,35 +10,39 @@
         font-family: $font-primary;
         padding:60px;
         font-size: 50px;
+        text-align: center;
     }
-   .worksItem_area{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width:65%;
-    margin:0 auto;
     .works_item{
-        width: 350px;
-        padding-top:50px;
+        display:flex;
+        justify-content:space-evenly;
+        padding:50px;
+        margin:20px 50px;
                 img{
-                max-width:350px;
+                max-width:500px;
                 height:auto;
                 }
+                .works-descrition{
+                    width:500px;
                 h1{
-                    padding:10px;
                     font-family:$font-secondary;
                     font-weight:bold;
+                    text-align: start;
                 }
                 p{
                 color:gray;
-                    margin:0 auto;
-                span{
-                    color:black;
-                    display:block;
-                    padding-top:10px;
-                    font-weight:bold;
-                    }
-            }
+                text-align: start;
+                }
+                button{
+                    padding:10px;
+                    margin:5px;
+                    border-radius: 5px;
+                    background:rgb(82, 81, 81);
+                    border:none;
+                    color: white;
+                    font-size: 1.3rem;
+                    text-align:start;
+                }
+        }
                 .countdown-wrapper{
                     display:flex;
                     justify-content:center;
@@ -70,5 +74,4 @@
             }
         }
     }
-   }
 }
