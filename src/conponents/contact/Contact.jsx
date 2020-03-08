@@ -9,7 +9,7 @@ import Social_icon3 from "../../img/instagram_orange.png"
 const Contact = () => {
     return (
         <div id="contact_container">
-            <h1>*CONTACT ME*</h1>
+            <h1 className="section_title">*CONTACT ME*</h1>
             <p>Thank you for visiting my website!!Feel free to contact me via email or linked in.</p>
             <a className="email-button"href="mailto:tktk11217@gmail.com" class="email-button">Send a message!</a>
             <div className="social_icons">
