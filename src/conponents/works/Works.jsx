@@ -15,7 +15,6 @@ const Works = () => {
             <WorksItem url="https://totoriri.github.io/whack-a-mole/" img={Whack_a_mole} title="whack a mole" description="A game of hitting moles which come out from holes at random." language="HTML/CSS/JavaScript"/>
             <WorksItem url="https://vigorous-visvesvaraya-70500e.netlify.com/" img={Brickhouse} title="Team project" description="A school project to create a client website ." language="React/Sass"/>
             <WorksItem url="https://vigorous-visvesvaraya-70500e.netlify.com/" img={Brickhouse} title="Team project" description="A school project to create a client website ." language="React/Sass"/>
-            <WorksItem url="https://vigorous-visvesvaraya-70500e.netlify.com/" img={Brickhouse} title="Team project" description="A school project to create a client website ." language="React/Sass"/>
             <div className="works_item">
                 <img src={React_img} alt="works_img" />
                 <h1>Coming soon!</h1>
