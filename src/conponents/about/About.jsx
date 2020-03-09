@@ -34,9 +34,8 @@ const About = () => {
                     </div>
             </div>
             </div>
-                <div className="bottom_part">
                 <div className="my_skills">
-                <h1><span>#My skill</span></h1>
+                <h1><span>#My skills</span></h1>
                     <div className="skill_icon_area">
                     <Skill_icon img={REACT} text="React"/>
                     <Skill_icon img={JAVASCRIPT} text="JavaScript"/>
@@ -52,7 +51,6 @@ const About = () => {
                         {/* <p>React,JavaScript,SASS(SCSS),HTML5, CSS3,JQuery, React, Bootstrap, Responsive Design</p> */}
                         </div>
                 </div>
-            </div>
             </div>
     )
 }
