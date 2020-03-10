@@ -2,14 +2,16 @@ import React from "react"
 import "../about/About.scss"
 import risa_photo2 from "../../img/risa_photo.jpg"
 import Skill_icon from "./Skill_icon.jsx"
-import REACT from "../../img/react.png"
-import JAVASCRIPT from "../../img/javascript.png"
-import HTML from "../../img/html2.png"
-import CSS from "../../img/css.png"
-import SASS from "../../img/sass.png"
-import BOOTSTRAP from "../../img/bootstrap.png"
-import JAVA from "../../img/java.png"
-import GIT from "../../img/git.png"
+import REACT from "../../img/skill_icons/react.png"
+import JAVASCRIPT from "../../img/skill_icons/javascript.png"
+import HTML from "../../img/skill_icons/html5.png"
+import CSS from "../../img/skill_icons/css3.png"
+import SASS from "../../img/skill_icons/sass.png"
+import BOOTSTRAP from "../../img/skill_icons/bootstrap.png"
+import JAVA from "../../img/skill_icons/java.png"
+import GIT from "../../img/skill_icons/git.png"
+import TYPESCRIPT from "../../img/skill_icons/typescript.png"
+import NODEJS from "../../img/skill_icons/nodejs.png"
 
 const About = () => {
     return (
@@ -45,8 +47,8 @@ const About = () => {
                     <Skill_icon img={BOOTSTRAP} text="Bootstrap"/>
                     <Skill_icon img={JAVA}text="JAVA"/>
                     <Skill_icon img={GIT}text="GIT"/>
-                    <Skill_icon img={GIT}text="GIT"/>
-                    <Skill_icon img={GIT}text="GIT"/>
+                    <Skill_icon img={TYPESCRIPT}text="GIT"/>
+                    <Skill_icon img={NODEJS}text="GIT"/>
                     {/* </div> */}
                         {/* <p>React,JavaScript,SASS(SCSS),HTML5, CSS3,JQuery, React, Bootstrap, Responsive Design</p> */}
                         </div>

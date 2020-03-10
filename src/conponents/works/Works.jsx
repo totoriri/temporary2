@@ -7,7 +7,6 @@ import Whack_a_mole from "../../img/whack_a_mole.png"
 import Brickhouse from "../../img/Brickhouse.png"
 import React_img from "../../img/react_white.jpg"
 
-
 const langObj = {
     whack_a_mole: ["react", "redux","javascript","hooks"],
     Brickhouse:["scss","react","javascript","typescript"]
