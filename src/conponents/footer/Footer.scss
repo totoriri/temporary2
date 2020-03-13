@@ -9,14 +9,21 @@
         // transform: translateX(-50%);
         top:0%;
     }
-    p{
+    .licence{
         position:absolute;
-        top:70px;
-
-        // なんで中央にならないんだろう？？ちょっと右にずれる。なぜ？
-        // transform:translate(-50%)は全く見当違いだった。
-        left: 92%;
+        top:50px;
+        left: 90%;
         color:white;
+        width:150px;
+        h5{
+            // なんで中央にならないんだろう？？ちょっと右にずれる。なぜ？
+            // transform:translate(-50%)は全く見当違いだった。
+        }
+        p{
+            font-size:10px;
+            a{
+                margin:0;
+            }
+        }
     }
-    
 }

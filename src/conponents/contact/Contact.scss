@@ -34,6 +34,7 @@
         // なんで、これ、左に寄っちゃうんだろう？？センターになるはずでは？？挙動がわからない。。。
         // とりあえずセンターに寄せておこう、、笑
         margin:0 auto;
+        text-align: center;
         // なぜtrxt-alignじゃ中央寄せにならないのに、margin:0 autO;だとなるのか？なぜ？？？
     }
     .social_icons{
