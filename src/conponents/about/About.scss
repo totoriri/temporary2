@@ -1,83 +1,122 @@
 @import "../../css/variables.scss";
 
+// mobile-firstで作成（iphone7サイズ→３７５px）
 #about_container{
-    max-width:100%;
-    margin:100px  0;
-    text-align: center;
-    h1{
-        font-family: $font-primary;
-    }
+    // text-align: center;
+    margin:50px 0px;
     .section_title{
-        font-size:50px;
-    }
-    span{
-        font-weight:600;
+        text-align: center;
+        padding-top:40px;
     }
     img{
-       
+        width:350px;
+        height:auto;
     }
-    .top_part{
-        display:flex;
-        justify-content: center;
-        img{
-            // padding-top:50px;
-            width:45%;
-            height:45%;
-        }
+    .top_left_part{
+        text-align:center;
+        padding:20px;
         .my_story{
-            width:600px;
-            padding-top:50px;
-            margin-bottom:30px;
-        }
-        .my_education{
-            width:600px;
-            p{
-                padding-bottom:20px;
-            }
+            margin-bottom:50px;
         }
     }
+    .my_skills{
+        text-align: center;
         .skill_icon_area{
             display:flex;
-            // flex-wrap:wrap;
+            flex-wrap: wrap;
             justify-content: center;
-            height:100px;
-            // width:600px;
-            // margin:  0 auto;  
+            padding:20px;
             .skill_icon_item{
-             width:90px;
-             img{
-                 padding-top:20px;
-             }
-             p{
-                //  これwidthを親要素と同じ大きさにしないと、上手くtext-alignが効かないし、
-                // widthをそもそも設定しないと、なぜか右に大幅にずれて、画面外にはみ出す。
-                 width:90px;
-                 text-align:center;
-                 font-size:16px;
-             }
-            }}
-    }
-    @media screen and (max-width: 559px) {
-        #about_container{
-            .top_part{
-
+                img{
+                    width:50px;
+                }
+                p{
+                    font-size:10px;
+                    color:rgb(119, 119, 119);
+                }
             }
         }
     }
-    @media screen and (max-width: 959px){
-        #about_container{
-            .top_part{
-            display:flex;
-            width:700px;
-            flex-wrap:wrap;
-            }
-            .my_skills{
-                .skill_icon_area{
-                    width:700px;
-                    display:flex;
-                    flex-wrap:wrap;
-                    justify-content: center;
-                }
-            }
-      }
-     }
+}
+
+// #about_container{
+//     max-width:100%;
+//     margin:100px  0;
+//     text-align: center;
+//     h1{
+//         font-family: $font-primary;
+//     }
+//     .section_title{
+//         font-size:50px;
+//     }
+//     span{
+//         font-weight:600;
+//     }
+//     img{
+       
+//     }
+//     .top_part{
+//         display:flex;
+//         justify-content: center;
+//         img{
+//             // padding-top:50px;
+//             width:45%;
+//             height:45%;
+//         }
+//         .my_story{
+//             width:600px;
+//             padding-top:50px;
+//             margin-bottom:30px;
+//         }
+//         .my_education{
+//             width:600px;
+//             p{
+//                 padding-bottom:20px;
+//             }
+//         }
+//     }
+//         .skill_icon_area{
+//             display:flex;
+//             // flex-wrap:wrap;
+//             justify-content: center;
+//             height:100px;
+//             // width:600px;
+//             // margin:  0 auto;  
+//             .skill_icon_item{
+//              width:90px;
+//              img{
+//                  padding-top:20px;
+//              }
+//              p{
+//                 //  これwidthを親要素と同じ大きさにしないと、上手くtext-alignが効かないし、
+//                 // widthをそもそも設定しないと、なぜか右に大幅にずれて、画面外にはみ出す。
+//                  width:90px;
+//                  text-align:center;
+//                  font-size:16px;
+//              }
+//             }}
+//     }
+//     @media screen and (max-width: 559px) {
+//         #about_container{
+//             .top_part{
+
+//             }
+//         }
+//     }
+//     @media screen and (max-width: 959px){
+//         #about_container{
+//             .top_part{
+//             display:flex;
+//             width:700px;
+//             flex-wrap:wrap;
+//             }
+//             .my_skills{
+//                 .skill_icon_area{
+//                     width:700px;
+//                     display:flex;
+//                     flex-wrap:wrap;
+//                     justify-content: center;
+//                 }
+//             }
+//       }
+//      }

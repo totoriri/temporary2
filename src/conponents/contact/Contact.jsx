@@ -1,5 +1,5 @@
 import React from "react"
-import SocialIcons from "./SocialIcons"
+import SocialIcons from "../home/SocialIcons"
 import "./Contact.scss"
 import Social_icon1 from "../../img/github.png"
 import Social_icon2 from "../../img/linkedin-60.png"
