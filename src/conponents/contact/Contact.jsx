@@ -1,10 +1,9 @@
 import React from "react"
-import SocialIcons from "../home/SocialIcons"
 import "./Contact.scss"
-import Social_icon1 from "../../img/github.png"
-import Social_icon2 from "../../img/linkedin-60.png"
-// import Social_icon3 from "../../img/instagram_64.png"
 
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 const Contact = () => {
     return (
@@ -13,9 +12,9 @@ const Contact = () => {
             <p>Thank you for visiting my website!!Feel free to contact me via email or linked in.</p>
             <a className="email-button"href="mailto:tktk11217@gmail.com" class="email-button">Send a message!</a>
             <div className="social_icons">
-                <SocialIcons url="https://github.com/totoriri" icon_img={Social_icon2} />
-                <SocialIcons url="https://www.linkedin.com/in/risa-takata-557b52185/" icon_img={Social_icon2}/>
-                <SocialIcons url="https://www.instagram.com/risa_travel.jp/" icon_img={Social_icon2} /> 
+                <a href="https://github.com/totoriri"><GitHubIcon className="icon github_icon"/></a>
+                <a href="https://www.linkedin.com/in/lisa-takata-557b52185/"><LinkedInIcon className="icon linkedin_icon"/></a>
+                <a href="https://www.instagram.com/risa_travel.jp/"><InstagramIcon className="icon instagram_icon"/></a>
             </div>
         </div>
     )

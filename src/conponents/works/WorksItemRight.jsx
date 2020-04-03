@@ -11,7 +11,7 @@ const WorksItemRight = ({url,img,title,description,languages}) => {
                 </ul>
                 <p>{description}Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <button>Website</button>
-                <button>GitHub</button>
+                <button className="github_button">GitHub</button>
             </div>
         </div>
     )

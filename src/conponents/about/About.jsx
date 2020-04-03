@@ -19,19 +19,19 @@ const About = () => {
             <h1 className="section_title">*ABOUT ME*</h1>
                 <div className="top_part">
                 <img src={risa_photo2} alt="my_picture" />
-                <div className="top_left_part">
-                    <div className="my_story">
-                        <h1><span>#who...?</span></h1>
-                        <p>My name is Risa Takata. I'm a Japanese Front End Developer based in Vancouver,Canada. I'm focusing on  creating user-friendly websites and readable code. i like apple. i have a dog. i wanna go to the place i dont know.i'm so excited to meet someone.my friends call me risa.haha.yay.　when can i be able to go to japan?my favorite movie is "BIG fish". i can't sllep well these days.happy Monday!!yeaaaaahhhhhhhhh!!
-                        </p>
+                    <div className="top_left_part">
+                        <div className="my_story">
+                            <h1><span>#who...?</span></h1>
+                            <p>My name is Risa Takata. I'm a Japanese Front End Developer based in Vancouver,Canada. I'm focusing on  creating user-friendly websites and readable code. i like apple. i have a dog. i wanna go to the place i dont know.i'm so excited to meet someone.my friends call me risa.haha.yay.　when can i be able to go to japan?my favorite movie is "BIG fish". i can't sllep well these days.happy Monday!!yeaaaaahhhhhhhhh!!
+                            </p>
+                        </div>
+                            {/* <div className="my_education">
+                                <h1><span>#Education</span></h1>
+                                <p><span>Web & Mobile App Development Co-Op Diploma</span> <br/>Cornerstone International Community College of Canada(CICCC) May. 2019 ~ Apr. 2020</p>
+                                <p><span>Web & Mobile App Development Co-Op Diploma</span> <br/>Cornerstone International Community College of Canada(CICCC) May. 2019 ~ Apr. 2020</p>
+                            </div> */}
+                    </div>
                 </div>
-                {/* <div className="my_education">
-                        <h1><span>#Education</span></h1>
-                        <p><span>Web & Mobile App Development Co-Op Diploma</span> <br/>Cornerstone International Community College of Canada(CICCC) May. 2019 ~ Apr. 2020</p>
-                        <p><span>Web & Mobile App Development Co-Op Diploma</span> <br/>Cornerstone International Community College of Canada(CICCC) May. 2019 ~ Apr. 2020</p>
-                    </div> */}
-            </div>
-            </div>
                 <div className="my_skills">
                 <h1><span>#My skills</span></h1>
                     <div className="skill_icon_area">
