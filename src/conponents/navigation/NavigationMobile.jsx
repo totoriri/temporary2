@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 
-// import logo from "../../img/brickhouse_logo.png";
 import navItems from "./NavItems";
 import "./Navigation.scss";
 import "./NavigationMobile.scss";
-
 
 const NavigationMobile = () => {
     const [navButtons, setNavButtons] = useState(navItems);
