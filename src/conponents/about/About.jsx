@@ -22,7 +22,10 @@ const About = () => {
                     <div className="top_left_part">
                         <div className="my_story">
                             <h1><span>#who...?</span></h1>
-                            <p>My name is Risa Takata. I'm a Japanese Front End Developer based in Vancouver,Canada. I'm focusing on  creating user-friendly websites and readable code. i like apple. i have a dog. i wanna go to the place i dont know.i'm so excited to meet someone.my friends call me risa.haha.yay.　when can i be able to go to japan?my favorite movie is "BIG fish". i can't sllep well these days.happy Monday!!yeaaaaahhhhhhhhh!!
+                            <p>My name is Lisa Takata. I'm a Japanese Front End Developer based in Vancouver,Canada.
+                            I’m passionate about creating looking beautiful and user-friendly apps backed by equally concise code.
+                            I love working with React , Javascript,HTML5, CSS3/Sass, Responsive Design and animation!!!
+                            I never stop learning and keep improving with newly-learned skills!
                             </p>
                         </div>
                             {/* <div className="my_education">
@@ -41,13 +44,11 @@ const About = () => {
                     <Skill_icon img={CSS} text="CSS"/>
                     <Skill_icon img={SASS} text="SASS"/>
                     <Skill_icon img={BOOTSTRAP} text="Bootstrap"/>
-                    <Skill_icon img={JAVA}text="JAVA"/>
-                    <Skill_icon img={GIT}text="GIT"/>
-                    <Skill_icon img={TYPESCRIPT}text="GIT"/>
-                    <Skill_icon img={NODEJS}text="GIT"/>
-                    {/* </div> */}
-                        {/* <p>React,JavaScript,SASS(SCSS),HTML5, CSS3,JQuery, React, Bootstrap, Responsive Design</p> */}
-                        </div>
+                    <Skill_icon img={JAVA} text="Java"/>
+                    <Skill_icon img={GIT} text="GIT"/>
+                    <Skill_icon img={TYPESCRIPT} text="Typescript"/>
+                    <Skill_icon img={NODEJS} text="Node.js"/>
+                    </div>
                 </div>
             </div>
     )

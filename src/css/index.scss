@@ -1,23 +1,11 @@
 @import "../css/variables.scss";
 
-// * {
-//     margin: 0;
-//     // なんでここでpading:0ってやってんのに、各component padding 生じちゃってるんだろう？？
-//     padding: 0;
-//     // text-align:center;
-//   }
   body {
     font-size: 18px;
     font-family:$font-secondary;
   }
   
-  // code {
-  //   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-  //     monospace;
-  // }
   p{
-    // font-size:1.3rem;
-    // text-align: start;
     font-weight: 250;
   }
 

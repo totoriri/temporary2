@@ -16,11 +16,12 @@
         }
         ul{
             display:flex;
+            flex-wrap: wrap;
                 li{
                     list-style: none;
-                    margin-right:5px;
+                    margin:0px 5px 5px 0px;
                     background-color: rgb(246, 232, 169);
-                    padding:1px 10px;
+                    padding:3px 10px;
                     border-radius: 20px;
                 }
             }
@@ -46,6 +47,23 @@
     .reverse_work_item{
         display:flex;
         flex-direction: column-reverse;
+        .countdown-wrapper{
+            display:flex;
+            padding:5px;
+            .countdown-item{
+                margin-left:5px;
+                p{
+                    font-size: 28px;
+                    font-weight:500;
+                    span{
+                        font-size:15px;
+                    }
+                }
+            }
+            .dot{
+                margin:6px 3px;
+            }
+        }
     }
 }
 
@@ -55,17 +73,21 @@
             display:flex;
             justify-content: space-around;
             margin:100px 0px 100px 0px;
-            // padding:0px 20px;
+            box-shadow: 0 0 8px rgb(184, 184, 184);
+            padding:70px 50px;
+            border-radius:10px;
             a{
                 width:45%;
             }
             .works-descrition{
                 width:45%;
             }
-
         }
         .reverse_work_item{
             flex-direction: row;
+            .countdown-wrapper{
+                margin-top:50px;
+            }
         }
     }
 }
