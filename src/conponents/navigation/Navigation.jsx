@@ -1,25 +1,7 @@
-// import React, { useState } from "react"
-
-// import "./Navigation.scss"
-
-// const Navigation = () => {
-//     return (
-//         <div className="navigation_container">
-//             <ul>
-//                 <li><a href="#about">about</a></li>
-//                 <li><a href="#">works</a></li>
-//                 <li><a href="#">contact</a></li>
-//             </ul>
-//         </div>
-//     )
-// }
-
-// export default Navigation;
-
 import React, { useState, useEffect } from "react";
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
 
-// import logo from "../../img/brickhouse_hori.png"
+import AppsRoundedIcon from '@material-ui/icons/AppsRounded';
 import navItems from "./NavItems";
 import NavigationLinks from "./NavigationLinks.jsx";
 import "./Navigation.scss";
@@ -92,7 +74,7 @@ const Navigation = ({cSection}) => {
                 <div className="navigation_wrapper">
                     <div className="navigation_logo_main">
                         <a href="/">
-                            <img className="brand_logo"  alt="TOP_Logo" />
+                            <AppsRoundedIcon style={{ color: "white",width:"50px",height:"50px" }} alt="TOP_Logo" />
                         </a>
                     </div>
                     <div className="navigation_items">

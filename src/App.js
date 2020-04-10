@@ -23,9 +23,9 @@ function App() {
         >
           {matches => (
             <>
-              {matches.mobile && (
+              {/* {matches.mobile && (
                 <p>mobile navigation</p>
-              )}
+              )} */}
               {matches.webbrowser && (
                 <Navigation cSection={currentSec}/>
               )}

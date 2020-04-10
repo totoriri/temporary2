@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+  font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+p {
+  font-weight: 250;
+}
+
+body,
+section,
+div,
+nav,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=index.css.map */

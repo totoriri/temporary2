@@ -9,11 +9,12 @@ const WorksItemRight = ({url,img,title,description,languages}) => {
                 <ul>
                     {languages.map((language) => <li>{language}</li>)}
                 </ul>
-                <p>{description}Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id, amet optio dicta maxime, cumque aperiam nam esse quas illo eligendi praesentium repellat voluptate laudantium voluptatem asperiores a impedit reiciendis?</p>
+                <p>{description} </p>
                 <button>Website</button>
-                <button>GitHub</button>
+                <button className="github_button">GitHub</button>
             </div>
         </div>
     )
 }
 export default WorksItemRight;
+
