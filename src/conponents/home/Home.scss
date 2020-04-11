@@ -128,16 +128,25 @@
             font-size:55px;
             padding-top:200px;
         }
+        .arrow{
+            span{
+                left:47%;
+            }
+        }
     }
 }
 
 @media screen and (min-width:1024px){
     #home_container{
         height:780px;
-
         .title{
             font-size:60px;
             padding-top: 90px;
+        }
+        .arrow{
+            span{
+                left:49%;
+            }
         }
     }
 }
