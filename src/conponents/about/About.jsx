@@ -23,7 +23,7 @@ const About = () => {
                         <div className="my_story">
                             <h1><span>#who...?</span></h1>
                             <p>My name is Lisa Takata. I'm a Japanese Front End Developer based in Vancouver,Canada.
-                            I’m passionate about creating looking beautiful and user-friendly apps backed by equally concise code.
+                            I’m passionate about creating looking beautiful and user-friendly apps backed by concise code.
                             I love working with React , Javascript,HTML5, CSS3/Sass, Responsive Design and animation!!!
                             I never stop learning and keep improving with newly-learned skills!
                             </p>

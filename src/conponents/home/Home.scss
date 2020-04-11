@@ -2,7 +2,7 @@
 
 // mobile_first(iphone7→375pxを基準にした。)
 #home_container{
-    height:600px;
+    height:550px;
     background: linear-gradient(25deg, #F13F79, #FFC778);
     position:relative;
     font-family:$font_primary;
@@ -93,8 +93,7 @@
             animation: animate 3s infinite;
             position: absolute;
             left:46%;
-            top:67%;
-            transform: translateX(-50%);
+            top:72%;
             &:nth-child(2){
                 animation-delay: -0.2s;
                 display:none;
