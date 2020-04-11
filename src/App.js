@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Media from "react-media";
 import IndexPage from "./conponents/IndexPage"
 import Navigation from "./conponents/navigation/Navigation"
-import "./App.scss"
+// import "./App.scss"
 
 function App() {
   const [currentSec, setCurrentSec] = useState("0");
