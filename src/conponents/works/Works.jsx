@@ -10,7 +10,7 @@ import mindPerch from "../../img/mindPerch.png"
 
 const langObj = {
     whack_a_mole: ["HTML", "CSS", "Javascript"],
-    mindPerch:["React","styled-component"],
+    mindPerch:["React","Javascript"],
     Brickhouse: ["React", "Javascript", "SASS"],
     comingSoon:["React","Redux","Typescript","SASS","firebase"]
 }
