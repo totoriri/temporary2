@@ -2,7 +2,7 @@
 
 // mobile_first(iphone7→375pxを基準にした。)
 #home_container{
-    height:550px;
+    height:510px;
     background: linear-gradient(25deg, #F13F79, #FFC778);
     position:relative;
     font-family:$font_primary;
@@ -16,7 +16,7 @@
     .title{
         text-align: center;
         font-size:40px;
-        padding-top:100px;
+        padding-top:80px;
     }
     .social_icons{
         margin-top:15px;
